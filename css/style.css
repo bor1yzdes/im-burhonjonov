@@ -22,7 +22,7 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
-	line-height: 27px;
+	line-height: 1.5;
 	letter-spacing: 0%;
 	color: #b0adad;
 	background-color: #212121;
@@ -181,3 +181,50 @@ body {
 	transform: scale(0.9);
 }
 /* Hero End */
+
+/* Main Start */
+.main-content {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.about-me {
+	padding-top: 46px;
+}
+
+.about-me-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about-me-img {
+	width: 553px;
+}
+
+.about-me-info {
+	max-width: 580px;
+	width: 100%;
+}
+
+.about-me-title3 {
+	font-size: 24px;
+	font-weight: 600;
+	color: #4c70ef;
+	line-height: 1.5;
+	letter-spacing: 10%;
+	margin-bottom: 12px;
+}
+
+.about-me-title2 {
+	color: #fff;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 1.5;
+	margin-bottom: 32px;
+}
+
+.about-me-text:not(:last-child) {
+	margin-bottom: 16px;
+}
+/* Main End */
