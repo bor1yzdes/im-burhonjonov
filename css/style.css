@@ -190,6 +190,7 @@ body {
 
 .about-me {
 	padding-top: 46px;
+	padding-bottom: 60px;
 }
 
 .about-me-container {
@@ -207,7 +208,7 @@ body {
 	width: 100%;
 }
 
-.about-me-title3 {
+.overall-title3 {
 	font-size: 24px;
 	font-weight: 600;
 	color: #4c70ef;
@@ -216,7 +217,7 @@ body {
 	margin-bottom: 12px;
 }
 
-.about-me-title2 {
+.overall-title2 {
 	color: #fff;
 	font-size: 36px;
 	font-weight: 600;
@@ -228,3 +229,73 @@ body {
 	margin-bottom: 16px;
 }
 /* Main End */
+
+/* Section What Start */
+.what {
+	padding-top: 64px;
+	padding-bottom: 60px;
+}
+
+.what-title-wrapper {
+	text-align: center;
+	margin-bottom: 51px;
+}
+
+.what-title {
+	margin-bottom: 0;
+}
+
+.what-list {
+	display: flex;
+	justify-content: space-between;
+	max-width: 980px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.what-item {
+	max-width: 480px;
+	width: 100%;
+	background-color: #292c36;
+	border-radius: 12px;
+	padding: 27px 24px 21px;
+}
+
+.what-list-top {
+	display: flex;
+	align-items: center;
+	margin-bottom: 35px;
+}
+
+.what-pic {
+	width: 66px;
+	height: 66px;
+	display: flex;
+	border-radius: 8px;
+	margin-right: 16px;
+	align-items: center;
+	justify-content: center;
+	background-color: #38405a;
+}
+
+.what-title3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #fff;
+	max-width: 219px;
+	width: 100%;
+}
+
+.title3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #fff;
+	max-width: 177px;
+	width: 100%;
+}
+/* Section What End */
